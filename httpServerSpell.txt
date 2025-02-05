@@ -1,0 +1,3 @@
+have python3 installed
+navigate to this folder in your terminal
+cast: python -m http.server 8000

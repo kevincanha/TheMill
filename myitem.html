@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <title>The Mill My Item</title>
+</head>
+
+
+<body>
+    <div class="inbody">
+    <h1 class="Title"><u>About The Mill</u></h1>
+
+    <!-- Navigation bar vv -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="myitem.html">My Item</a>
+        <div class="dropdown">
+          <button class="dropbtn">Dropdown 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div> 
+      </div>
+    <!-- Navigation bar ^^-->
+
+    <form>
+        <label for="pid">Enter Product ID:</label>
+        <input type="number" name="pid" id="pid" value="1"><br>
+
+        <button type="button" onclick="LoadPhoto()">Load Info</button><br>
+    </form>
+
+    <pre id="imagedisplay"></pre>
+    <iframe id="textdisplay" style="width: 100%; height: 300px; border: 1px solid #ccc;"></iframe>
+    <br>
+    <br>
+    <script src="code.js"></script>
+</body>
